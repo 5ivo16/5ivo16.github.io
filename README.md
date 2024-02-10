@@ -2,7 +2,7 @@
   <head>
     <link rel="stylesheet" href="/style.css">
   </head>
-  <body id="body" style="background-color:powderblue;">
+  <body id="body" style="background-color:white;">
     <h1 style="color:black;">This is a black header.</h1>
     <p style="color:black;">This text is black. The same color as the text in the header. Below, an image can be found of the colour black. Click on it to deep dive into the colour white.</p>
     <a href="https://en.wikipedia.org/wiki/Black"><img src="/black.jpg" width="100" height="100"></a>
