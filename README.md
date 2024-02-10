@@ -11,6 +11,9 @@
     <a href="https://en.wikipedia.org/wiki/White"><img src="/white.jpg" width="100" height="100"></a>
     <p></p>
     <button type="button" style="color:black" onClick="toWhite()">Click here to get to know more about the color black.</button>
+    <style type="text/css">
+      p { font-family: Arial; }
+    </style>
     <script>
       function toBlack() {
         document.getElementById("body").style.color = "black";
