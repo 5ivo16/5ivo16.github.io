@@ -4,22 +4,22 @@
   </head>
   <body id="body" style="background-color:powderblue;">
     <h1 style="color:black;">This is a black header.</h1>
-    <p style="color:black;">This text is black. The same color as the text in the header. Below, an image can be found of the colour black.</p>
+    <p style="color:black;">This text is black. The same color as the text in the header. Below, an image can be found of the colour black. Click on it to deep dive into the colour white.</p>
     <a href="https://en.wikipedia.org/wiki/Black"><img src="/black.jpg" width="100" height="100"></a>
     <p></p>
-    <p id="toBlack" style="color:black" onClick="toBlack()">Click here to get to know more about the color white.</p>
+    <p id="toBlack" style="color:black" onClick="toBlack()">Double click on this text to get to know more about the color white.</p>
     <h1 style="color:white;">This is a white header.</h1>
-    <p style="color:white;">This text is white. The same color as the text in the header.</p>
+    <p style="color:white;">This text is white. The same color as the text in the header. Below, an image can be found of the colour white. Click on it to deep dive into the colour white.</p>
     <a href="https://en.wikipedia.org/wiki/White"><img src="/white.jpg" width="100" height="100"></a>
     <p></p>
-    <p id="toWhite" style="color:white" onClick="toWhite()">Click here to get to know more about the color black.</p>
+    <p id="toWhite" style="color:white" onClick="toWhite()">Double click on this text to get to know more about the color black.</p>
     <script>     
       function toBlack() {
-        document.getElementById("body").style.backgroundColor = "black";
+        document.body.style.backgroundColor = "black";
       }
   
       function toWhite() {
-        document.getElementById("body").style.backgroundColor = "white";
+        document.body.style.backgroundColor = "white";
       }
     </script>
   </body>
