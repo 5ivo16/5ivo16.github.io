@@ -1,6 +1,9 @@
 <html>
   <head>
     <link rel="stylesheet" href="/style.css">
+    <script src="script.js">
+      writeURL();
+    </script>
   </head>
   <body id="body" style="background-color:white;">
     <h1 style="color:black;">This is a black header.</h1>
@@ -13,14 +16,5 @@
     <a href="https://en.wikipedia.org/wiki/White"><img src="/white.jpg" width="100" height="100"></a>
     <p></p>
     <p id="toWhite" style="color:white" onClick="toWhite()">Click on this text to get to know more about the colour black.</p>
-    <script>     
-      function toBlack() {
-        document.body.style.backgroundColor = "black";
-      }
-  
-      function toWhite() {
-        document.body.style.backgroundColor = "white";
-      }
-    </script>
   </body>
 </html>
