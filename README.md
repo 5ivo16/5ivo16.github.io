@@ -2,7 +2,7 @@
   <head>
     <link rel="stylesheet" href="/style.css">
     <script src="script.js">
-      writeURL();
+      log();
     </script>
   </head>
   <body id="body" style="background-color:white;">
